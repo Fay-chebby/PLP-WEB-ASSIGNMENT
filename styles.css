@@ -54,10 +54,11 @@ body {
 .navbar {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 20px;
   padding: 20px 50px;
-  margin-left: 120px;
+  margin-left: 150px;
   position: fixed;
   top: 0;
   left: 0;
@@ -68,6 +69,8 @@ body {
 .logo {
   font-weight: bold;
   font-size: 24px;
+  color: white;
+  margin-right: 100px;
 }
 
 .nav-links {
@@ -103,16 +106,17 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 80px 50px;
+  /* padding: 80px 50px; */
   gap: 40px;
   position: relative;
   z-index: 2;
+  margin-bottom: 40px;
 }
 
 .hero-content {
   flex: 1 1 400px;
   max-width: 600px;
-  background: rgba(0, 0, 0, 0.6);
+
   padding: 30px;
   border-radius: 10px;
 }
@@ -120,15 +124,16 @@ body {
 .hero-content h2 {
   font-size: 32px;
   font-weight: 600;
+  color: #ffffff;
 }
 
 .hero-content h1 {
   font-size: 60px;
-  font-weight: 700;
-}
+  font-weight: 500;
 
-.hero-content h1 span {
-  color: #00b894;
+  color: transparent; /* Remove fill */
+  -webkit-text-stroke: 1px #ffffff;
+  /* text-stroke: 2px #ffffff; Fallback for other engines */
 }
 
 .hero-content p {
@@ -136,6 +141,7 @@ body {
   font-size: 16px;
   max-width: 90%;
   line-height: 1.6;
+  color: #ffffff;
 }
 
 .buttons {
