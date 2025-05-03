@@ -718,6 +718,8 @@ body {
 .stats-section {
   background-color: #fff;
   padding: 60px 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .stats-container {
