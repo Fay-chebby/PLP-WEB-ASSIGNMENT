@@ -111,8 +111,8 @@ body {
   position: relative;
   z-index: 2;
   margin-bottom: 60px;
-  /* top: -80px; */
-  /* margin-left: 130px; */
+  top: 120px;
+  margin-left: 250px;
 }
 
 .hero-content {
@@ -143,7 +143,7 @@ body {
 .hero-content p {
   margin: 20px 0;
   font-size: 15px;
-  width: 100%;
+  width: 92%;
   line-height: 1.6;
   color: #ffffff;
   display: -webkit-box;
@@ -187,7 +187,7 @@ body {
   max-width: 100%;
   height: auto;
   max-height: 400px;
-  margin-right: 100px;
+  margin-right: 400px;
   /* object-fit: contain; */
 }
 
@@ -413,7 +413,11 @@ i {
   display: flex;
   align-items: center;
   gap: 15px;
+
   flex-wrap: wrap;
+}
+#icon {
+  color: #00b894;
 }
 
 .social-follow span {
@@ -435,6 +439,7 @@ i {
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
+  margin-top: 40px;
 }
 
 .hire-button,
@@ -488,10 +493,11 @@ body {
   color: #333;
 }
 
-section {
+.services {
   padding: 60px 20px;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: auto;
+  background-color: #f7f7f7;
 }
 
 /* ===== SERVICES SECTION ===== */
