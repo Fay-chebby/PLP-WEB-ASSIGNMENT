@@ -544,32 +544,36 @@ body {
 /* ===== SKILLS SECTION ===== */
 .skills-content {
   display: flex;
-  gap: 40px;
+  align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  margin-left: 150px;
+  margin: 50px;
+  /* gap: 150px; */
 }
+
 .split-container {
   display: flex;
-  align-items: center;
 }
 
 .image-column {
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 50px;
+  border-radius: 5px;
 }
 .image-top {
-  width: 300px; /* set desired width */
-  height: 150px;
+  width: 300px;
+  height: 100px;
   object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .image-bottom {
-  width: 300px; /* set desired width */
-  height: 300px; /* set desired height */
+  width: 300px;
+  height: 300px;
   object-fit: cover;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .image-top {
@@ -581,32 +585,37 @@ body {
 }
 
 .content-box {
-  background: white;
-  padding: 20px;
-  margin-left: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 300px; /* adjust width */
+  margin-left: 50px;
+  max-width: 400px;
+  margin-top: 30px;
+}
+.text1 {
+  margin-top: 50px;
+}
+.myskills {
+  margin-bottom: 8px;
 }
 
 .skill {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .skill label {
   display: block;
+  font-weight: bold;
   margin-bottom: 5px;
 }
 
 .bar {
-  height: 6px;
-  background: #e0e0e0;
-  border-radius: 3px;
-  overflow: hidden;
+  background: #eee;
+  height: 5px;
+  width: 100%;
+  position: relative;
 }
 
 .bar div {
+  background: teal;
   height: 100%;
-  background: #00796b;
 }
 
 /* ===== MEDIA QUERIES ===== */
