@@ -545,8 +545,10 @@ body {
 .skills-content {
   display: flex;
   gap: 40px;
+  justify-content: center;
   flex-wrap: wrap;
   align-items: flex-start;
+  margin-left: 150px;
 }
 .split-container {
   display: flex;
