@@ -834,3 +834,79 @@ body {
     font-size: 1.5rem;
   }
 }
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+
+.footer {
+  background-color: #071e26;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px 20px;
+  font-family: Arial, sans-serif;
+  margin-top: 90px;
+}
+
+.footer .logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer .contact-info span {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.footer .contact-info i {
+  margin-right: 6px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  border-top: 1px solid #0f2c36;
+  padding-top: 15px;
+}
+
+.footer-bottom p {
+  flex: 1;
+  font-size: 13px;
+  text-align: left;
+}
+
+.footer .social-icons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.footer .social-icons a {
+  color: #fff;
+  font-size: 14px;
+  padding: 8px;
+  border-radius: 50%;
+  background-color: #0f2c36;
+  transition: background-color 0.3s;
+}
+
+.footer .social-icons a:hover {
+  background-color: #1f4e5f;
+}
+
+.scroll-top {
+  color: white;
+  background-color: #16877c;
+  padding: 10px;
+  border-radius: 50%;
+  /* margin-left: 8px; */
+  text-decoration: none;
+  position: relative;
+  transition: background-color 0.3s;
+}
+
+.scroll-top:hover {
+  background-color: #0f6a62;
+}
