@@ -370,8 +370,8 @@ i {
   height: 100%;
   margin-bottom: -25px;
 
-  object-fit: cover; /* Crop the image nicely to fill the rectangle */
-  border-radius: 10px; /* Optional: round image corners too */
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .bio-content {
@@ -401,10 +401,11 @@ i {
 
 .info-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Exactly 2 columns */
-  gap: 5px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
   margin-bottom: 25px;
   font-size: 15px;
+  width: 500px;
 }
 
 .social-follow {
