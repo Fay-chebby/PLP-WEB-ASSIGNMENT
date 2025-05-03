@@ -194,22 +194,51 @@ body {
 /* RIGHT SIDEBAR */
 .sidebar {
   position: fixed;
-  top: 40%;
+  top: 20%;
   right: 10px;
+  background-color: black;
+  color: grey;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
   gap: 10px;
+  padding: 30px; /* Space inside the rectangle */
+  border-radius: 5px; /* Rounded corners */
+  width: 50px; /* Adjust size to your needs */
   z-index: 999;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional: subtle shadow */
 }
 
 .sidebar button {
   background: #112;
-  color: white;
+  color: rgb(0, 0, 0);
   border: none;
   padding: 10px;
   border-radius: 8px;
   cursor: pointer;
   transition: background 0.3s;
+}
+#double {
+  color: grey;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+.line {
+  border: none; /* Remove other borders */
+  border-top: 2px solid rgb(255, 255, 255); /* Thin horizontal line, adjust color */
+  width: 100%; /* Full width of its container */
+  height: 0; /* No height */
+  margin: 20px 0; /* Optional margin to space out the line */
+}
+
+#back {
+  color: grey;
+  font-weight: 900;
+  cursor: pointer;
+  font-size: 14px;
 }
 
 .sidebar button:hover {
@@ -229,10 +258,8 @@ i {
   font-size: 16px;
   color: #ffffff;
 }
-/* i {
-  font-size: 24px;
-  color: #555;
-} */
+.fas fa-moon {
+}
 
 .icon-btn {
   background: #222;
@@ -247,23 +274,6 @@ i {
 
 .icon-btn:hover {
   background: #00b894;
-}
-
-/* DARK MODE */
-body.dark {
-  background: #111;
-  color: #eee;
-}
-
-body.dark .navbar,
-body.dark .hero-content {
-  background: rgba(255, 255, 255, 0.05);
-}
-
-body.dark .sidebar button,
-body.dark .icon-btn {
-  background: #333;
-  color: #fff;
 }
 
 /* RESPONSIVE DESIGN */
