@@ -789,9 +789,9 @@ body {
 }
 
 .gallery-grid img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
+  width: 250px;
+  height: 150px;
+  border-radius: 5px;
   object-fit: cover;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
