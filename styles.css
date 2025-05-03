@@ -193,9 +193,9 @@ body {
 
 /* RIGHT SIDEBAR */
 .sidebar {
-  position: fixed;
-  top: 20%;
-  right: 10px;
+  position: absolute;
+  top: 2%;
+  right: -20px;
   background-color: black;
   color: grey;
   display: flex;
@@ -226,13 +226,13 @@ body {
   font-weight: 900;
   margin-bottom: 15px;
 }
-.line {
-  border: none; /* Remove other borders */
-  border-top: 2px solid rgb(255, 255, 255); /* Thin horizontal line, adjust color */
-  width: 100%; /* Full width of its container */
-  height: 0; /* No height */
-  margin: 20px 0; /* Optional margin to space out the line */
-}
+/* .line {
+  border: none; Remove other borders
+  border-top: 20px solid rgb(255, 255, 255);
+  width: 100%; 
+  height: 0; 
+  margin: 20px 0; 
+} */
 
 #back {
   color: grey;
