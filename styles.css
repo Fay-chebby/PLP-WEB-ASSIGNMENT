@@ -58,7 +58,7 @@ body {
   align-items: center;
   gap: 20px;
   padding: 20px 50px;
-  margin-left: 150px;
+  margin-left: 100px;
   position: fixed;
   top: 0;
   left: 0;
@@ -70,7 +70,7 @@ body {
   font-weight: bold;
   font-size: 24px;
   color: white;
-  margin-right: 100px;
+  margin-right: 160px;
 }
 
 .nav-links {
@@ -110,12 +110,16 @@ body {
   gap: 40px;
   position: relative;
   z-index: 2;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
+  /* top: -80px; */
+  /* margin-left: 130px; */
 }
 
 .hero-content {
   flex: 1 1 400px;
-  max-width: 600px;
+  max-width: 100%;
+  /* top: -80px; */
+  margin-bottom: 90px;
 
   padding: 30px;
   border-radius: 10px;
@@ -138,10 +142,17 @@ body {
 
 .hero-content p {
   margin: 20px 0;
-  font-size: 16px;
-  max-width: 90%;
+  font-size: 15px;
+  width: 100%;
   line-height: 1.6;
   color: #ffffff;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Limit to 2 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.5em; /* Adjust line spacing */
+  max-height: 3em; /* 2 lines × 1.5em line height */
 }
 
 .buttons {
@@ -169,13 +180,15 @@ body {
 .hero-image {
   flex: 1 1 300px;
   text-align: center;
+  /* margin-right: 100px; */
 }
 
 .hero-image img {
   max-width: 100%;
   height: auto;
-  max-height: 500px;
-  object-fit: contain;
+  max-height: 400px;
+  margin-right: 100px;
+  /* object-fit: contain; */
 }
 
 /* RIGHT SIDEBAR */
