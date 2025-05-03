@@ -548,35 +548,37 @@ body {
   flex-wrap: wrap;
   align-items: flex-start;
 }
-
-.image-group {
-  flex: 1 1 40%;
+.split-container {
+  display: flex;
+  align-items: center;
 }
 
-.image-group img {
-  width: 100%;
-  margin-bottom: 20px;
-  border-radius: 8px;
+.image-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-top,
+.image-bottom {
+  width: 300px; /* set desired width */
+  height: 150px; /* set desired height */
   object-fit: cover;
 }
 
-.skills-text {
-  flex: 1 1 50%;
+.image-top {
+  object-position: top;
 }
 
-.skills-text h5 {
-  color: #888;
-  margin-bottom: 5px;
-  text-transform: uppercase;
+.image-bottom {
+  object-position: bottom;
 }
 
-.skills-text h2 {
-  margin-bottom: 20px;
-}
-
-.skills-text p {
-  margin-bottom: 30px;
-  line-height: 1.6;
+.content-box {
+  background: white;
+  padding: 20px;
+  margin-left: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px; /* adjust width */
 }
 
 .skill {
